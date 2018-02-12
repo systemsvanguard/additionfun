@@ -1,0 +1,49 @@
+<!doctype>
+<html lang="en">
+<head>
+    <title>Addition Fun</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">    
+    <link href="https://fonts.googleapis.com/css?family=Lato|Mukta+Malar" rel="stylesheet"> 
+    <link rel="stylesheet" href="http://ryanhunter.org/portfolio/libs/bootstrap/bootstrap.min.css">
+	<link rel="shortcut icon" href="additionfun/images/img/appicon.ico" /> 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="additionfun/additionfun.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+  <!-- Start ~ Math Addition Game -->
+  <h2 class="gameheader">Addition Fun!</h2>
+  <div class="container-fluid text-center">  
+    <div id="score">  <p>Score: </p> </div>
+	
+	<div id="display" class="well col-xs-6">
+      <div id="try-screen">
+        <p id="try">Play Again</p>
+
+        <p id="final-score">Your score is 0.</p>
+        <button id="restart-button" class="btn btn-primary btn-lg"><i class="fa fa-repeat"></i> Play</button>
+      </div>
+
+      <div id="working-screen">
+        <div id="progressbar"></div>
+        <p id="expression">41 + 8</p>
+        <p id="result">= 49</p>
+        <div id="controls">
+          <button id="tick"  class="btn btn-success btn-md"><i class="fa fa-check"></i> True</button>
+          <button id="cross" class="btn btn-danger btn-md"> <i class="fa fa-close"></i> False</button>
+        </div>
+      </div>
+      <!-- end of working screen -->
+    </div>
+    <!--  <div id="score">  <p>Score: </p> </div>  -->
+  </div><!-- end of fluid container -->
+  <!-- End ~ Math Addition Game -->   
+    
+    <!-- JS Files -->
+    <script src="http://ryanhunter.org/portfolio/libs/jquery.min_3.2.1.js"></script>
+	<script src="http://ryanhunter.org/portfolio/libs/jquery-ui.min.js"></script>    
+    <script src="http://ryanhunter.org/portfolio/libs/popper.min.js"></script>
+	<script src="http://ryanhunter.org/portfolio/libs/bootstrap/bootstrap.min.js"></script>	
+    <script src="additionfun/additionfun.js"></script>    
+</body>    
+</html>
